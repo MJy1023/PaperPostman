@@ -1,0 +1,19 @@
+# PaperPostman Dependencies
+
+# HTTP requests
+requests>=2.31.0
+
+# Feed parsing for arXiv Atom feeds
+feedparser>=6.0.10
+
+# HTML parsing for papers.cool scraping
+beautifulsoup4>=4.12.0
+
+# YAML config file parsing
+pyyaml>=6.0.1
+
+# OpenAI SDK (for DeepSeek API - OpenAI compatible)
+openai>=1.0.0
+
+# Date handling
+python-dateutil>=2.8.2

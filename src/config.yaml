@@ -1,0 +1,57 @@
+# PaperPostman Configuration File
+
+# Keywords for filtering papers
+# Papers with these keywords in title or abstract will be included
+keywords:
+  - "vLLM"
+  - "vision language model"
+
+# arXiv categories to fetch
+# See https://arxiv.org/category_taxonomy for full list
+arxiv_categories:
+  - "cs.AI"
+  - "cs.CL"
+  - "cs.CV"
+  - "cs.LG"
+  - "cs.CR"
+  - "stat.ML"
+
+# Conferences to fetch from papers.cool
+# URL pattern: https://papers.cool/venue/{CONFERENCE}
+conferences:
+  - "NeurIPS"
+  - "ICLR"
+  - "AAAI"
+  - "ICML"
+  - "ACL"
+  - "EMNLP"
+  - "CVPR"
+  - "ICCV"
+  - "ICRA"
+  - "KDD"
+
+# Settings
+papers_per_day: 10                # Maximum papers to display in Latest News
+daily_recommendation_count: 3     # Number of papers to recommend daily
+daily_recommendation_source: "conferences"  # "conferences" or "arxiv" or "both"
+weekly_summary_day: "Friday"      # Day of week for weekly summary
+conference_year: 2024           # Year for conference papers
+
+# LLM Configuration (DeepSeek API)
+# DeepSeek uses OpenAI-compatible API format
+llm_api_base: "https://api.deepseek.com"
+llm_api_key: "${DEEPSEEK_API_KEY}"  # Use environment variable
+llm_model: "deepseek-chat"       # Model: deepseek-chat or deepseek-reasoner
+llm_temperature: 0.7
+llm_max_tokens: 2000
+
+# arXiv API Configuration
+arxiv_api_base: "https://export.arxiv.org/api/query"
+
+# papers.cool URL Configuration
+paperscool_base_url: "https://papers.cool/venue"
+
+# Archive Configuration
+archive_dir: "archive"
+data_dir: "data"
+weekly_data_dir: "data/weekly"

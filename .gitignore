@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Output files (but keep data/*.json)
+*.csv
+papers.md
+
+# Data files (comment out if you want to track data)
+# data/*.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Original directories
+arxiv-docs/
+papers.cool/
+.claude/
+
+# Archive (optional, comment out if you want to track archives)
+# archive/*
