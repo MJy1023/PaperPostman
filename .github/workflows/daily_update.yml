@@ -55,4 +55,5 @@ jobs:
           git add .
           git diff --cached --stat
           git commit -m "Update daily papers $(date +'%Y-%m-%d')"
+          git pull --rebase
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/MJy1023/PaperPostman.git
