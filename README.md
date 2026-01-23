@@ -1,7 +1,7 @@
 # PaperPostman
 > Automatically curated research papers from arXiv and papers.cool
 
-**Last Updated:** 2026-01-23 16:32:35 UTC
+**Last Updated:** 2026-01-23 16:38:30 UTC
 ---
 
 ## Latest News
