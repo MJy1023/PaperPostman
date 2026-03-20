@@ -1,7 +1,7 @@
 # PaperPostman
 > Automatically curated research papers from arXiv and papers.cool
 
-**Last Updated:** 2026-03-20 16:29:51 UTC
+**Last Updated:** 2026-03-19 16:44:34 UTC
 ---
 
 ## Latest News
@@ -40,17 +40,6 @@ The evolution of Large Vision-Language Models (LVLMs) has progressed from single
 **[Read Paper](/venue/4xvE6Iy77Y@OpenReview)**
 
 Preference-based reinforcement learning (PbRL) has emerged as a promising paradigm for teaching robots complex behaviors without reward engineering. However, its effectiveness is often limited by two critical challenges: the reliance on extensive human input and the inherent difficulties in resolving query ambiguity and credit assignment during reward learning. In this paper, we introduce PRIMT, a PbRL framework designed to overcome these challenges by leveraging foundation models (FMs) for multimodal synthetic feedback and trajectory synthesis. Unlike prior approaches that rely on single-modality FM evaluations, PRIMT employs a hierarchical neuro-symbolic fusion strategy, integrating the complementary strengths of vision-language models (VLMs) and large language models (LLMs) in evaluating robot behaviors for more reliable and comprehensive feedback. PRIMT also incorporates foresight trajectory generation to warm-start the trajectory buffer with bootstrapped samples, reducing early-stage query ambiguity, and hindsight trajectory augmentation for counterfactual reasoning with a causal auxiliary loss to improve credit assignment. We evaluate PRIMT on 2 locomotion and 6 manipulation tasks on various benchmarks, demonstrating superior performance over FM-based and scripted baselines. Website at https://primt25.github.io/.
-
----
-
-
-## Weekly Summary
-
-*Week ending 2026-03-20*
-
----
-
-*No papers to summarize this week.*
 
 ---
 
