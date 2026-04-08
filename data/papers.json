@@ -1020,477 +1020,498 @@
   },
   {
     "id": null,
-    "title": "Real-Time Calibration Model for Low-Cost Sensor in Fine-Grained Time Series",
+    "title": "Resource Efficient Sleep Staging via Multi-Level Masking and Prompt Learning",
     "authors": [
-      "Seokho Ahn",
-      "Hyungjin Kim",
-      "Sungbok Shin",
-      "Young-Duk Seo"
-    ],
-    "affiliations": [],
-    "summary": "Precise measurements from sensors are crucial, but data is usually collected from low-cost, low-tech systems, which are often inaccurate. Thus, they require further calibrations. To that end, we first identify three requirements for effective calibration under practical low-tech sensor conditions. Based on the requirements, we develop a model called TESLA, Transformer for effective sensor calibration utilizing logarithmic-binned attention. TESLA uses a high-performance deep learning model, Transformers, to calibrate and capture non-linear components. At its core, it employs logarithmic binning, to minimize attention complexity. TESLA achieves consistent real-time calibration, even with longer sequences and finer-grained time series in hardware-constrained systems. Experiments show that TESLA outperforms existing novel deep learning and newly crafted linear models in accuracy, calibration speed, and energy efficiency.",
-    "link": "/venue/31974@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "BayesCNS: A Unified Bayesian Approach to Address Cold Start and Non-Stationarity in Search Systems at Scale",
-    "authors": [
-      "Randy Ardywibowo",
-      "Rakesh Sunki",
-      "Shin Tsz Lucy Kuo",
-      "Sankalp Nayak"
-    ],
-    "affiliations": [],
-    "summary": "Information Retrieval (IR) systems used in search and recommendation platforms frequently employ Learning-to-Rank (LTR) models to rank items in response to user queries. These models heavily rely on features derived from user interactions, such as clicks and engagement data. This dependence introduces cold start issues for items lacking user engagement and poses challenges in adapting to non-stationary shifts in user behavior over time. We address both challenges holistically as an online learning problem and propose BayesCNS, a Bayesian approach designed to handle cold start and non-stationary distribution shifts in search systems at scale. BayesCNS achieves this by estimating prior distributions for user-item interactions, which are continuously updated with new user interactions gathered online. This online learning procedure is guided by a ranker model, enabling efficient exploration of relevant items using contextual information provided by the ranker. We successfully deployed BayesCNS in a large-scale search system and demonstrated its efficacy through comprehensive offline and online experiments. Notably, an online A/B experiment showed a 10.60% increase in new item interactions and a 1.05% improvement in overall success metrics over the existing production baseline.",
-    "link": "/venue/31975@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "Scalable Surrogate Verification of Image-Based Neural Network Control Systems Using Composition and Unrolling",
-    "authors": [
-      "Feiyang Cai",
-      "Chuchu Fan",
-      "Stanley Bak"
-    ],
-    "affiliations": [],
-    "summary": "Verifying safety of neural network control systems that use images as input is a difficult problem because, from a given system state, there is no known way to mathematically model what images are possible in the real-world. We build upon recent work that considers a surrogate verification approach, training a conditional generative adversarial network (cGAN) as an image generator in place of the real world. This setup enables set-based formal analysis of the closed-loop system, providing analysis beyond simulation and testing. While existing work is effective on small examples, excessive overapproximation both within a single control period (one-step error) and across multiple periods (multi-step error) limits its scalability. We propose approaches to overcome these errors. First, we address one-step error by composing the system's dynamics along with the cGAN and neural network controller, without losing the dependencies between input states and the control outputs as in the monotonic analysis of the system dynamics. Second, we reduce multi-step error by repeating the single-step composition, essentially unrolling multiple steps of the control loop into a large neural network. We then leverage existing network verification algorithms to compute accurate reachable sets for multiple steps, avoiding the accumulation of abstraction error at each step.We demonstrate the effectiveness of our approach in terms of both accuracy and scalability using two case studies. On the aircraft taxiing system, the converged reachable set is 175% larger using the prior baseline method compared with our proposed approach. On the emergency braking system, with 24x the number of image output variables from the cGAN, the baseline method fails to prove any states are safe, whereas our improvements enable set-based safety analysis.",
-    "link": "/venue/31976@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "External Reliable Information-enhanced Multimodal Contrastive Learning for Fake News Detection",
-    "authors": [
-      "Biwei Cao",
-      "Qihang Wu",
-      "Jiuxin Cao",
-      "Bo Liu",
-      "Jie Gui"
-    ],
-    "affiliations": [],
-    "summary": "With the rapid development of the Internet, the information dissemination paradigm has changed and the efficiency has been improved greatly. While this also brings the quick spread of fake news and leads to negative impacts on cyberspace. Currently, the information presentation formats have evolved gradually, with the news formats shifting from texts to multimodal contents. As a result, detecting multimodal fake news has become one of the research hotspots. However, multimodal fake news detection research field still faces two main challenges: the inability to fully and effectively utilize multimodal information for detection, and the low credibility or static nature of the introduced external information, which limits dynamic updates. To bridge the gaps, we propose ERIC-FND, an external reliable information-enhanced multimodal contrastive learning framework for fake news detection. ERIC-FND strengthens the representation of news contents by entity-enriched external information enhancement method. It also enriches the multimodal news information via multimodal semantic interaction method where the multimodal constrative learning is employed to make different modality representations learn from each other. Moreover, an adaptive fusion method is taken to integrate the news representations from different dimensions for the eventual classification. Experiments are done on two commonly used datasets in different languages, X (Twitter) and Weibo. Experiment results demonstrate that our proposed model ERIC-FND outperforms existing state-of-the-art fake news detection methods under the same settings.",
-    "link": "/venue/31977@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "Holistic Semantic Representation for Navigational Trajectory Generation",
-    "authors": [
-      "Ji Cao",
-      "Tongya Zheng",
-      "Qinghong Guo",
-      "Yu Wang",
-      "Junshu Dai",
-      "Shunyu Liu",
-      "Jie Yang",
-      "Jie Song",
-      "Mingli Song"
-    ],
-    "affiliations": [],
-    "summary": "Trajectory generation has garnered significant attention from researchers in the field of spatio-temporal analysis, as it can generate substantial synthesized human mobility trajectories that enhance user privacy and alleviate data scarcity. However, existing trajectory generation methods often focus on improving trajectory generation quality from a singular perspective, lacking a comprehensive semantic understanding across various scales. Consequently, we are inspired to develop a HOlistic SEmantic Representation (HOSER) framework for navigational trajectory generation. Given an origin-and-destination (OD) pair and the starting time point of a latent trajectory, we first propose a Road Network Encoder to expand the receptive field of road- and zone-level semantics. Second, we design a Multi-Granularity Trajectory Encoder to integrate the spatio-temporal semantics of the generated trajectory at both the point and trajectory levels. Finally, we employ a Destination-Oriented Navigator to seamlessly integrate destination-oriented guidance. Extensive experiments on three real-world datasets demonstrate that HOSER outperforms state-of-the-art baselines by a significant margin. Moreover, the model's performance in few-shot learning and zero-shot learning scenarios further verifies the effectiveness of our holistic semantic representation.",
-    "link": "/venue/31978@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration",
-    "authors": [
-      "Jipeng Cen",
-      "Jiaxin Liu",
-      "Zhixu Li",
-      "Jingjing Wang"
-    ],
-    "affiliations": [],
-    "summary": "While fine-tuned large language models (LLMs) excel in generating grammatically valid SQL in Text-to-SQL parsing, they often struggle to ensure semantic accuracy in queries, leading to user confusion and diminished system usability. To tackle this challenge, we introduce SQLFixAgent, a new consistency-enhanced multi-agent collaborative framework designed for detecting and repairing erroneous SQL. Our framework comprises a core agent, SQLRefiner, alongside two auxiliary agents: SQLReviewer and QueryCrafter. The SQLReviewer agent employs the rubber duck debugging method to identify potential semantic mismatches between SQL and user query. If the error is detected, the QueryCrafter agent generates multiple SQL as candidate repairs using a fine-tuned SQLTool. Subsequently, leveraging similar repair retrieval and failure memory reflection, the SQLRefiner agent selects the most fitting SQL statement from the candidates as the final repair. We evaluated our proposed framework on five Text-to-SQL benchmarks. The experimental results show that our method consistently enhances the performance of the baseline model, specifically achieving an execution accuracy improvement of over 3% on the Bird benchmark. Our framework also has a higher token efficiency compared to other advanced methods, making it more competitive.",
-    "link": "/venue/31979@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "mmFAS: Multimodal Face Anti-Spoofing Using Multi-Level Alignment and Switch-Attention Fusion",
-    "authors": [
-      "Geng Chen",
-      "Wuyuan Xie",
-      "Di Lin",
-      "Ye Liu",
-      "Miaohui Wang"
-    ],
-    "affiliations": [],
-    "summary": "The increasing number of presentation attacks on reliable face matching has raised concerns and garnered attention towards face anti-spoofing (FAS). However, existing methods for FAS modeling commonly fuse multiple visual modalities (e.g., RGB, Depth, and Infrared) in a straightforward manner, disregarding latent feature gaps that can hinder representation learning. To address this challenge, we propose a novel multimodal FAS framework (mmFAS) that focuses on explicit alignment and fusion of latent features across different modalities. Specifically, we develop a multimodal alignment module to alleviate the latent feature gap by using instance-level contrastive learning and class-level matching simultaneously. Further, we explore a new switch-attention based fusion module to automatically aggregate complementary information and control model complexity. To evaluate the anti-spoofing performance more effectively, we adopt a challenging yet meaningful cross-database protocol involving four benchmark multimodal FAS datasets to simulate realworld scenarios. Extensive experimental results demonstrate the effectiveness of mmFAS in improving the accuracy of FAS systems, outperforming 10 representative methods.",
-    "link": "/venue/31980@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection",
-    "authors": [
-      "Jie Chen",
-      "Liangmin Wang",
-      "Huijuan Zhu",
-      "Victor S. Sheng"
-    ],
-    "affiliations": [],
-    "summary": "Reentrancy vulnerabilities in smart contracts have been exploited to steal enormous amounts of money, thus detecting reentrancy vulnerabilities is a hotspot issue in security research. However, a new attack is emerging in which attackers continuously release new reentrancy patterns to exploit fresh vulnerabilities and obfuscate existing ones. Existing detection methods neglect the time-series evolution of vulnerabilities across different smart contract versions, leading to a gradual decline in their effectiveness over time. We investigate the time-series correlations among vulnerabilities in various versions and refer to these as Evolutionary Reentrancy Vulnerabilities (ERVs). We summarize that ERVs detection faces two key challenges: (i) capturing the evolving pattern of ERVs along a complete evolutionary chain and (ii) detecting fresh reentrancy vulnerabilities in new versions. To address these challenges, we propose CLEP, a novel Contrastive Learning with Evolving Pairs detection method. It can effectively capture the evolving patterns by discerning similarities and differences across versions. Specifically, we first modified the sample distribution by incorporating version declarations as time-series evolution information. Then, leveraging the hierarchical similarity, we design an evolving pairs scheme to form negative and positive contract pairs across versions. Finally, we build a complete evolutionary chain by proposing a version-aware contrastive sampler. Our experimental results show that CLEP not only outperforms state-of-the-art baselines in version-specific scenarios but also shows promising performance in cross-version evolution scenarios.",
-    "link": "/venue/31981@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "GLCF: A Global-Local Multimodal Coherence Analysis Framework for Talking Face Generation Detection",
-    "authors": [
-      "Xiaocan Chen",
-      "Qilin Yin",
-      "Jiarui Liu",
-      "Wei Lu",
-      "Xiangyang Luo",
-      "Jiantao Zhou"
-    ],
-    "affiliations": [],
-    "summary": "Talking face generation (TFG) allows for producing lifelike talking videos of any character using only facial images and accompanying text. Abuse of this technology could pose significant risks to society, creating the urgent need for research into corresponding detection methods. However, research in this field has been hindered by the lack of public datasets. In this paper, we construct the first large-scale multi-scenario talking face dataset (MSTF), which contains 22 audio and video forgery techniques, filling the gap of datasets in this field. The dataset covers 11 generation scenarios and more than 20 semantic scenarios, closer to the practical application scenario of TFG. Besides, we also propose a TFG detection framework, which leverages the analysis of both global and local coherence in the multimodal content of TFG videos. Therefore, a region-focused smoothness detection module (RSFDM) and a discrepancy capture-time frame aggregation module (DCTAM) are introduced to evaluate the global temporal coherence of TFG videos, aggregating multi-grained spatial information. Additionally, a visual-audio fusion module (V-AFM) is designed to evaluate audiovisual coherence within a localized temporal perspective. Comprehensive experiments demonstrate the reasonableness and challenges of our datasets, while also indicating the superiority of our proposed method compared to the state-of-the-art deepfake detection approaches.",
-    "link": "/venue/31982@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "ReactGPT: Understanding of Chemical Reactions via In-Context Tuning",
-    "authors": [
-      "Zhe Chen",
-      "Zhe Fang",
-      "Wenhao Tian",
-      "Zhaoguang Long",
-      "Changzhi Sun",
-      "Yuefeng Chen",
-      "Hao Yuan",
-      "Honglin Li",
-      "Man Lan"
-    ],
-    "affiliations": [],
-    "summary": "The interdisciplinary field of chemistry and artificial intelligence (AI) is an active area of research aimed at accelerating scientific discovery. Large language Models (LLMs) have shown significant promise in biochemical tasks, especially the molecule caption translation, which aims to align between molecules and natural language texts. However, existing works mainly focus on single molecules, while alignment between chemical reactions and natural language text remains largely unexplored. Additionally, the description of reactions is an essential part in biochemical patents and literature, and research on this aspect not only can help better understand chemical reactions but also promote research on automating chemical synthesis and retrosynthesis. In this work, we propose \\textbf{ReactGPT}, a framework aiming to bridge the gap between chemical reaction and text. ReactGPT allows a new task: reaction captioning, by adapting LLMs to learn reaction-text alignment from context examples via In-Context Tuning. Specifically, ReactGPT jointly leverages a Fingerprints-based Reaction Retrieval module, a Domain-Specific Prompt Design module, and a two-stage In-Context Tuning module. We evaluate the effectiveness of ReactGPT on reaction captioning and experimental procedure prediction, both of these tasks can reflect the understanding of chemical reactions. Experimental results show that compared to previous models, ReactGPT exhibits competitive capabilities in resolving chemical reactions and generating high-quality text with correct structure.",
-    "link": "/venue/31983@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "4D Diffusion for Dynamic Protein Structure Prediction with Reference and Motion Guidance",
-    "authors": [
-      "Kaihui Cheng",
-      "Ce Liu",
-      "Qingkun Su",
-      "Jun Wang",
-      "Liwei Zhang",
-      "Yining Tang",
-      "Yao Yao",
-      "Siyu Zhu",
-      "Yuan Qi"
-    ],
-    "affiliations": [],
-    "summary": "Protein structure prediction is pivotal for understanding the structure-function relationship of proteins, advancing biological research, and facilitating pharmaceutical development and experimental design. While deep learning methods and the expanded availability of experimental 3D protein structures have accelerated structure prediction, the dynamic nature of protein structures has received limited attention. This study introduces an innovative 4D diffusion model incorporating molecular dynamics (MD) simulation data to learn dynamic protein structures. Our approach is distinguished by the following components: (1) a unified diffusion model capable of generating dynamic protein structures, including both the backbone and side chains, utilizing atomic grouping and side-chain dihedral angle predictions; (2) a reference network that enhances structural consistency by integrating the latent embeddings of the initial 3D protein structures; and (3) a motion alignment module aimed at improving temporal structural coherence across multiple time steps. To our knowledge, this is the first diffusion-based model aimed at predicting protein trajectories across multiple time steps simultaneously. Validation on benchmark datasets demonstrates that our model exhibits high accuracy in predicting dynamic 3D structures of proteins containing up to 256 amino acids over 32 time steps, effectively capturing both local flexibility in stable states and significant conformational changes.",
-    "link": "/venue/31984@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "G2LDetect: A Global-to-Local Approach for Hallucination Detection",
-    "authors": [
-      "Xiaoxia Cheng",
-      "Zeqi Tan",
-      "Zhe Zheng",
-      "Weiming Lu"
-    ],
-    "affiliations": [],
-    "summary": "Hallucination detection has attracted considerable interest due to the tendency of language models to generate texts that contain hallucinations. Most existing methods start with specific local details directly extracted from text, then aggregate to form the final conclusion. However, this direct extraction approach ignores the global context, leading to isolated details, and is prone to missed or over-detections. In this paper, we present a global-to-local approach for hallucination detection (G2LDetect), which considers the global information of the text before identifying local details. We first construct a global representation of the text by transforming it into a hierarchical tree structure. Afterward, we obtain specific local details from the global tree representation using path-wise identification and perform detection on them. This global-to-local detection process ensures that local details are context-aware and complete, thus making more accurate and reliable detection results. Experimental results show that our global-to-local method outperforms existing methods, especially for longer texts.",
-    "link": "/venue/31985@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "3D Denoisers Are Good 2D Teachers: Molecular Pretraining via Denoising and Cross-Modal Distillation",
-    "authors": [
-      "Sungjun Cho",
-      "Dae-Woong Jeong",
-      "Sung Moon Ko",
-      "Jinwoo Kim",
-      "Sehui Han",
-      "Seunghoon Hong",
-      "Honglak Lee",
-      "Moontae Lee"
-    ],
-    "affiliations": [],
-    "summary": "Pretraining molecular representations from large unlabeled data is essential for molecular property prediction due to the high cost of obtaining ground-truth labels. While there exist various 2D graph-based molecular pretraining approaches, these methods struggle to show statistically significant gains in predictive performance. Recent work have thus instead proposed 3D conformer-based pretraining under the task of denoising, leading to promising results. During downstream finetuning, however, models trained with 3D conformers require accurate atom-coordinates of previously unseen molecules, which are computationally expensive to acquire at scale. In this paper, we propose a simple solution of denoise-and-distill (D&D), a self-supervised molecular representation learning method that pretrains a 2D graph encoder by distilling representations from a 3D denoiser. With denoising followed by cross-modal knowledge distillation, our approach enjoys use of knowledge obtained from denoising as well as painless application to downstream tasks with no access to 3D conformers. Experiments on real-world molecular property prediction datasets show that the graph encoder trained via D&D can infer 3D information based on the 2D graph and shows superior performance and label-efficiency against previous methods.",
-    "link": "/venue/31986@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "CryoDomain: Sequence-free Protein Domain Identification from Low-resolution Cryo-EM Density Maps",
-    "authors": [
-      "Muzhi Dai",
-      "Zhuoer Dong",
-      "Weining Fu",
-      "Kui Xu",
-      "Qiangfeng Cliff Zhang"
-    ],
-    "affiliations": [],
-    "summary": "Cryo-electron microscopy (cryo-EM) has revolutionized the field of structural biology, determining structures of large protein machines and sharpening the understanding of fundamental biological processes. Despite cryo-EM’s unique capacity to discover novel proteins from unpurified samples and reveal the intricate structures of protein complexes within native cellular environments, the advancement of protein identification methods for cryo-EM lags behind. Without prior knowledge, such as sequence, protein identification from low-resolution density maps remains challenging. Here we introduce CryoDomain, an innovative method for identifying protein domains — conserved constituent units of proteins — from low-resolution cryo-EM density maps without requiring prior knowledge of protein sequences. CryoDomain leverages cross-modal alignment to correlate cryo-EM density maps with atomic structures, transferring the knowledge learned on a large atomic structure dataset to a sparse density map dataset. On two protein domain benchmarks constructed from CATH and SCOPe, CryoDomain significantly outperforms the state-of-the-art methods for domain identification from low-resolution density maps. CryoDomain liberates structural biologists from the tedious tasks of density inspection and database searching during protein identification. It has the potential to extend the border of unbiased structure discovery and cellular landscape investigation using cryo-EM.",
-    "link": "/venue/31987@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "Less Is More: Adaptive Program Repair with Bug Localization and Preference Learning",
-    "authors": [
-      "Zhenlong Dai",
-      "Bingrui Chen",
-      "Zhuoluo Zhao",
-      "Xiu Tang",
-      "Sai Wu",
-      "Chang Yao",
-      "Zhipeng Gao",
-      "Jingyuan Chen"
-    ],
-    "affiliations": [],
-    "summary": "Automated Program Repair (APR) is a task to automatically generate patches for the buggy code. However, most research focuses on generating correct patches while ignoring the consistency between the fixed code and the original buggy code. How to conduct adaptive bug fixing and generate patches with minimal modifications have seldom been investigated. To bridge this gap, we first introduce a novel task, namely AdaPR (Adaptive Program Repair). We then propose a two-stage approach AdaPatcher (Adaptive Patch Generator) to enhance program repair while maintaining the consistency. In the first stage, we utilize a Bug Locator with self-debug learning to accurately pinpoint bug locations. In the second stage, we train a Program Modifier to ensure consistency between the post-modified fixed code and the pre-modified buggy code. The Program Modifier is enhanced with a location-aware repair learning strategy to generate patches based on identified buggy lines, a hybrid training strategy for selective reference and an adaptive preference learning to prioritize fewer changes. The experimental results show that our approach outperforms a set of baselines by a large margin, validating the effectiveness of our two-stage framework for the newly proposed AdaPR task.",
-    "link": "/venue/31988@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "Improving Cancer Gene Prediction by Enhancing Common Information Between the PPI Network and Gene Functional Association",
-    "authors": [
-      "Chao Deng",
-      "Hongdong Li",
-      "Jianxin Wang"
-    ],
-    "affiliations": [],
-    "summary": "Identifying cancer genes is crucial for treatment and understanding pathogenesis. Recent methods typically leverage protein-protein interaction (PPI) networks or gene functional association data from annotated gene sets. There may be some shared neighborhood structure information between these two types of gene association data. While this common information may contain more accurate gene association information, existing methods often overlook this potential. To address this gap, we introduce DISFusion, which integrates multi-omics cancer data, PPI networks, and gene functional associations to identify cancer genes. A key innovation of DISFusion is the cross-view decorrelation loss, which enhances the common information between PPI networks and gene functional associations, thereby improving prediction accuracy. Extensive experiments indicate that DISFusion outperforms state-of-the-art methods and exhibits greater generalization ability. Moreover, analysis of CPTAC pan-cancer proteomic data highlights significant associations between the 30 novel cancer genes predicted by DISFusion and multiple cancer types, underscoring its practical utility. These findings validate the effectiveness of enhancing common information and provide new insights into cancer gene identification.",
-    "link": "/venue/31989@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "AutoSciLab: A Self-Driving Laboratory for Interpretable Scientific Discovery",
-    "authors": [
-      "Saaketh Desai",
-      "Sadhvikas Addamane",
-      "Jeffrey Y. Tsao",
-      "Igal Brener",
-      "Laura P. Swiler",
-      "Remi Dingreville",
-      "Prasad P. Iyer"
-    ],
-    "affiliations": [],
-    "summary": "Advances in robotic control and sensing have propelled the rise of automated scientific laboratories capable of high-throughput experiments. However, automated scientific laboratories are currently limited by human intuition in their ability to efficiently design and interpret experiments in high-dimensional spaces, throttling scientific discovery. We present AutoSciLab, a machine learning framework for driving autonomous scientific experiments, forming a surrogate researcher purposed for scientific discovery in high-dimensional spaces. AutoSciLab autonomously follows the scientific method in four steps: (i) generating high-dimensional experiments (x) using a variational autoencoder (ii) selecting optimal experiments by forming hypotheses using active learning (iii) distilling the experimental results to discover relevant low-dimensional latent variables (z) with a ‘directional autoencoder’ and (iv) learning a human interpretable equation connecting the discovered latent variables with a quantity of interest (y = f (z)), using a neural network equation learner. We validate the generalizability of AutoSciLab by rediscovering a) the principles of projectile motion and b) the phase-transitions within the spin-states of the Ising model (NP-hard problem). Applying our framework to an open-ended nanophotonics problem, AutoSciLab discovers a new way to steer incoherent light emission beyond current state-of-the-art, defining a new structure(material)-property(light-emission) relationship governing the physical process using closed-loop noisy experimental feedback.",
-    "link": "/venue/31990@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "RingFormer: A Ring-Enhanced Graph Transformer for Organic Solar Cell Property Prediction",
-    "authors": [
-      "Zhihao Ding",
-      "Ting Zhang",
-      "Yiran Li",
-      "Jieming Shi",
-      "Chen Jason Zhang"
-    ],
-    "affiliations": [],
-    "summary": "Organic Solar Cells (OSCs) are a promising technology for sustainable energy production. However, the identification of molecules with desired OSC properties typically involves laborious experimental research. To accelerate progress in the field, it is crucial to develop machine learning models capable of accurately predicting the properties of OSC molecules. While graph representation learning has demonstrated success in molecular property prediction, it remains underexplored for OSC-specific tasks. Existing methods fail to capture the unique structural features of OSC molecules, particularly the intricate ring systems that critically influence OSC properties, leading to suboptimal performance. To fill the gap, we present RingFormer, a novel graph transformer framework specially designed to capture both atom and ring level structural patterns in OSC molecules. RingFormer constructs a hierarchical graph that integrates atomic and ring structures and employs a combination of local message passing and global attention mechanisms to generate expressive graph representations for accurate OSC property prediction. We evaluate RingFormer's effectiveness on five curated OSC molecule datasets through extensive experiments. The results demonstrate that RingFormer consistently outperforms existing methods, achieving a 22.77% relative improvement over the nearest competitor on the CEPDB dataset.",
-    "link": "/venue/31991@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "Knowledge Is Power: Harnessing Large Language Models for Enhanced Cognitive Diagnosis",
-    "authors": [
-      "Zhiang Dong",
-      "Jingyuan Chen",
-      "Fei Wu"
-    ],
-    "affiliations": [],
-    "summary": "Cognitive Diagnosis Models (CDMs) are designed to assess students' cognitive states by analyzing their performance across a series of exercises. However, existing CDMs often struggle with diagnosing infrequent students and exercises due to a lack of rich prior knowledge. With the advancement in large language models (LLMs), which possess extensive domain knowledge, their integration into cognitive diagnosis presents a promising opportunity. Despite this potential, integrating LLMs with CDMs poses significant challenges. LLMs are not well-suited for capturing the fine-grained collaborative interactions between students and exercises, and the disparity between the semantic space of LLMs and the behavioral space of CDMs hinders effective integration. To address these issues, we propose a novel Knowledge-enhanced Cognitive Diagnosis (KCD) framework, which is a model-agnostic framework utilizing LLMs to enhance CDMs and compatible with various CDM architectures. The KCD framework operates in two stages: LLM Diagnosis and Cognitive Level Alignment. In the LLM Diagnosis stage, both students and exercises are diagnosed to achieve comprehensive and detailed modeling. In the Cognitive Level Alignment stage, we bridge the gap between the CDMs' behavioral space and the LLMs' semantic space using contrastive learning and mask-reconstruction approaches. Experiments on several real-world datasets demonstrate the effectiveness of our proposed framework.",
-    "link": "/venue/31992@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "FactorGCL: A Hypergraph-Based Factor Model with Temporal Residual Contrastive Learning for Stock Returns Prediction",
-    "authors": [
-      "Yitong Duan",
-      "Weiran Wang",
-      "Jian Li"
-    ],
-    "affiliations": [],
-    "summary": "As a fundamental method in economics and finance, the factor model has been extensively utilized in quantitative investment. In recent years, there has been a paradigm shift from traditional linear models with expert-designed factors to more flexible nonlinear machine learning-based models with data-driven factors, aiming to enhance the effectiveness of these factor models. However, due to the low signal-to-noise ratio in market data, mining effective factors in data-driven models remains challenging. In this work, we propose a hypergraph-based factor model with temporal residual contrastive learning (FactorGCL) that employs a hypergraph structure to better capture high-order nonlinear relationships among stock returns and factors. To mine hidden factors that supplement human-designed prior factors for predicting stock returns, we design a cascading residual hypergraph architecture, in which the hidden factors are extracted from the residual information after removing the influence of prior factors. Additionally, we propose a temporal residual contrastive learning method to guide the extraction of effective and comprehensive hidden factors by contrasting stock-specific residual information over different time periods. Our extensive experiments on real stock market data demonstrate that FactorGCL not only outperforms existing state-of-the-art methods but also mines effective hidden factors for predicting stock returns.",
-    "link": "/venue/31993@AAAI",
-    "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
-    "track": null,
-    "source": "paperscool"
-  },
-  {
-    "id": null,
-    "title": "How to Re-enable PDE Loss for Physical Systems Modeling Under Partial Observation",
-    "authors": [
-      "Haodong Feng",
+      "Lejun Ai",
+      "Yulong Li",
+      "Haodong Yi",
+      "Jixuan Xie",
       "Yue Wang",
-      "Dixia Fan"
+      "Jia Liu",
+      "Min Chen",
+      "Rui Wang"
     ],
     "affiliations": [],
-    "summary": "In science and engineering, machine learning techniques are increasingly successful in physical systems modeling (predicting future states of physical systems). Effectively integrating PDE loss as a constraint of system transition can improve the model's prediction by overcoming generalization issues due to data scarcity, especially when data acquisition is costly. However, in many real-world scenarios, due to sensor limitations, the data we can obtain is often only partial observation, making the calculation of PDE loss seem to be infeasible, as the PDE loss heavily relies on high-resolution states. We carefully study this problem and propose a novel framework named Re-enable PDE Loss under Partial Observation (RPLPO). The key idea is that although enabling PDE loss to constrain system transition solely is infeasible, we can re-enable PDE loss by reconstructing the learnable high-resolution state and constraining system transition simultaneously. Specifically, RPLPO combines an encoding module for reconstructing learnable high-resolution states with a transition module for predicting future states. The two modules are jointly trained by data and PDE loss. We conduct experiments in various physical systems to demonstrate that RPLPO has significant improvement in generalization, even when observation is sparse, irregular, noisy, and PDE is inaccurate.",
-    "link": "/venue/31994@AAAI",
+    "summary": "Automatic sleep staging plays a vital role in assessing sleep quality and diagnosing sleep disorders. Most existing methods rely heavily on long and continuous EEG recordings, which poses significant challenges for data acquisition in resource-constrained systems, such as wearable or home-based monitoring systems. In this paper, we propose the task of resource-efficient sleep staging, which aims to reduce the amount of signal collected per sleep epoch while maintaining reliable classification performance. To solve this task, we adopt the masking and prompt learning strategy and propose a novel framework called Mask-Aware Sleep Staging (MASS). Specifically, we design a multi-level masking strategy to promote effective feature modeling under partial and irregular observations. To mitigate the loss of contextual information introduced by masking, we further propose a hierarchical prompt learning mechanism that aggregates unmasked data into a global prompt, serving as a semantic anchor for guiding both patch-level and epoch-level feature modeling. MASS is evalutaed on four datasets, demonstrating state-of-the-art performance, especially when the amount of data is very limited. This result highlights its potential for efficient and scalable deployment in real-world low-resource sleep monitoring environments.",
+    "link": "/venue/36958@AAAI",
     "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
     "track": null,
     "source": "paperscool"
   },
   {
     "id": null,
-    "title": "APIRL: Deep Reinforcement Learning for REST API Fuzzing",
+    "title": "AutoMalDesc: Large-Scale Script Analysis for Cyber Threat Research",
     "authors": [
-      "Myles Foley",
-      "Sergio Maffeis"
+      "Alexandru-Mihai Apostu",
+      "Andrei Preda",
+      "Alexandra Daniela Damir",
+      "Diana Bolocan",
+      "Radu Tudor Ionescu",
+      "Ioana Croitoru",
+      "Mihaela Gaman"
     ],
     "affiliations": [],
-    "summary": "REST APIs have become key components of web services. However, they often contain logic flaws resulting in server side errors or security vulnerabilities. HTTP requests are used as test cases to find and mitigate such issues. Existing methods to modify requests, including those using deep learning, suffer from limited performance and precision, relying on undirected search or making limited usage of the contextual information. In this paper we propose APIRL, a fully automated deep reinforcement learning tool for testing REST APIs. A key novelty of our approach is the use of feedback from a transformer module pre-trained on JSON-structured data, akin to that used in API responses. This allows APIRL to learn the subtleties relating to test outcomes, and generalise to unseen API endpoints. We show APIRL can find significantly more bugs than the state-of-the-art in real world REST APIs while minimising the number of required test cases. We also study how reward functions, and other key design choices, affect learnt policies with a thorough ablation study.",
-    "link": "/venue/31995@AAAI",
+    "summary": "Generating thorough natural language explanations for threat detections remains an open problem in cybersecurity research, despite significant advances in automated malware detection systems. In this work, we present AutoMalDesc, an automated static analysis summarization framework that, following initial training on a small set of expert-curated examples, operates independently at scale. This approach leverages an iterative self-paced learning pipeline to progressively enhance output quality through synthetic data generation and validation cycles, eliminating the need for extensive manual data annotation. Evaluation across 3,600 diverse samples in five scripting languages demonstrates statistically significant improvements between iterations, showing consistent gains in both summary quality and classification accuracy. Our comprehensive validation approach combines quantitative metrics based on established malware labels with qualitative assessment from both human experts and LLM-based judges, confirming both technical precision and linguistic coherence of generated summaries. To facilitate reproducibility and advance research in this domain, we publish our complete dataset of more than 100K script samples, including annotated seed (900) and test (3.6K) datasets, along with our methodology and evaluation framework.",
+    "link": "/venue/36959@AAAI",
     "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
     "track": null,
     "source": "paperscool"
   },
   {
     "id": null,
-    "title": "A Theoretical Framework for an Efficient Normalizing Flow-Based Solution to the Electronic Schrödinger Equation",
+    "title": "Beyond Content: A Comprehensive Speech Toxicity Dataset and Detection Framework Incorporating Paralinguistic Cues",
     "authors": [
-      "Daniel Freedman",
-      "Eyal Rozenberg",
-      "Alex Bronstein"
+      "Zhongjie Ba",
+      "Liang Yi",
+      "Peng Cheng",
+      "Qingcao Li",
+      "Qinglong Wang",
+      "Li Lu"
     ],
     "affiliations": [],
-    "summary": "A central problem in quantum mechanics involves solving the Electronic Schrödinger Equation for a molecule or material. The Variational Monte Carlo approach to this problem approximates a particular variational objective via sampling, and then optimizes this approximated objective over a chosen parameterized family of wavefunctions, known as the ansatz. Recently neural networks have been used as the ansatz, with accompanying success. However, sampling from such wavefunctions has required the use of a Markov Chain Monte Carlo approach, which is inherently inefficient. In this work, we propose a solution to this problem via an ansatz which is cheap to sample from, yet satisfies the requisite quantum mechanical properties. We prove that a normalizing flow using the following two essential ingredients satisfies our requirements: (a) a base distribution which is constructed from Determinantal Point Processes; (b) flow layers which are equivariant to a particular subgroup of the permutation group. We then show how to construct both continuous and discrete normalizing flows which satisfy the requisite equivariance. We further demonstrate the manner in which the non-smooth nature (``cusps'') of the wavefunction may be captured, and how the framework may be generalized to provide induction across multiple molecules. The resulting theoretical framework entails an efficient approach to solving the Electronic Schrödinger Equation.",
-    "link": "/venue/31996@AAAI",
+    "summary": "Toxic speech detection has become a crucial challenge in maintaining safe online communication environments. However, existing approaches to toxic speech detection often neglect the contribution of paralinguistic cues, such as emotion, intonation, and speech rate, which are key to detecting speech toxicity. Moreover, current toxic speech datasets are predominantly text-based, limiting the development of models that can capture paralinguistic cues. To address these challenges, we present ToxiAlert-Bench, a large-scale audio dataset comprising over 30,000 audio clips annotated with seven major toxic categories and twenty fine-grained toxic labels. Uniquely, our dataset annotates toxicity sources—distinguishing between textual content and paralinguistic origins—for comprehensive toxic speech analysis. Furthermore, we propose a dual-head neural network with a multi-stage training strategy tailored for toxic speech detection. This architecture features two task-specific classification headers: one for identifying the source of sensitivity (textual or paralinguistic), and the other for categorizing the specific toxic type. The training process involves independent head training followed by joint fine-tuning to reduce task interference. To mitigate data class imbalance, we incorporate class-balanced sampling and weighted loss functions. Our experimental results show that leveraging paralinguistic features significantly improves detection performance. Our method consistently outperforms existing baselines across multiple evaluation metrics, with a 21.1% relative improvement in Macro-F1 score and a 13.0% relative gain in accuracy over the strongest baseline, highlighting its enhanced effectiveness and practical applicability.",
+    "link": "/venue/36960@AAAI",
     "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
     "track": null,
     "source": "paperscool"
   },
   {
     "id": null,
-    "title": "EWMoE: An Effective Model for Global Weather Forecasting with Mixture-of-Experts",
+    "title": "Modulation-Based Backdoors: Leveraging Amplitude and Frequency Patterns to Attack Speaker Recognition",
     "authors": [
-      "Lihao Gan",
-      "Xin Man",
-      "Chenghong Zhang",
-      "Jie Shao"
+      "Hanbo Cai",
+      "Pengcheng Zhang",
+      "Yan Xiao",
+      "De Li",
+      "Hanting Chu",
+      "Ying Luo"
     ],
     "affiliations": [],
-    "summary": "Weather forecasting is a crucial task for meteorologic research, with direct social and economic impacts. Recently, data-driven weather forecasting models based on deep learning have shown great potential, achieving superior performance compared with traditional numerical weather prediction methods. However, these models often require massive training data and computational resources. In this paper, we propose EWMoE, an effective model for accurate global weather forecasting, which requires significantly less training data and computational resources. Our model incorporates three key components to enhance prediction accuracy: 3D absolute position embedding, a core Mixture-of-Experts (MoE) layer, and two specific loss functions. We conduct our evaluation on the ERA5 dataset using only two years of training data. Extensive experiments demonstrate that EWMoE outperforms current models such as FourCastNet and ClimaX at all forecast time, achieving competitive performance compared with the state-of-the-art models Pangu-Weather and GraphCast in evaluation metrics such as Anomaly Correlation Coefficient (ACC) and Root Mean Square Error (RMSE). Additionally, ablation studies indicate that applying the MoE architecture to weather forecasting offers significant advantages in improving accuracy and resource efficiency.",
-    "link": "/venue/31997@AAAI",
+    "summary": "Deep neural networks (DNNs) are widely and successfully applied in the field of speaker recognition. However, recent studies reveal that these models are vulnerable to backdoor attacks, where adversaries inject malicious behaviors into victim models by poisoning the training process. Existing attack methods often rely on environmental noise or complex voice transformations, which are typically difficult to implement and exhibit poor stealthiness. To address these issues, this paper proposes two modulation-based backdoor attacks that leverage frequency modulation (FM) and amplitude modulation (AM) to construct audio triggers. In real-world scenarios, regular variations in frequency and amplitude are often imperceptible to human listeners, making the proposed attacks more covert. Experimental results show that our methods achieve high attack success rates in both digital and physical settings, while also demonstrating strong resistance to various state-of-the-art backdoor defenses.",
+    "link": "/venue/36961@AAAI",
     "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
     "track": null,
     "source": "paperscool"
   },
   {
     "id": null,
-    "title": "FoldToken: Learning Protein Language via Vector Quantization and Beyond",
+    "title": "Learning Structurally Stabilized Representations for Lossless DNA Storage",
     "authors": [
-      "Zhangyang Gao",
-      "Cheng Tan",
-      "Jue Wang",
-      "Yufei Huang",
-      "Lirong Wu",
-      "Stan Z. Li"
+      "Ben Cao",
+      "Xue Li",
+      "Tiantian He",
+      "Bin Wang",
+      "Shihua Zhou",
+      "Xiaohu Wu",
+      "Qiang Zhang"
     ],
     "affiliations": [],
-    "summary": "Is there a foreign language describing protein sequences and structures simultaneously? Protein structures, represented by continuous 3D points, have long posed a challenge due to the contrasting modeling paradigms of discrete sequences. We introduce FoldTokenizer to represent protein sequence-structure as discrete symbols. This approach involves projecting residue types and structures into a discrete space, guided by a reconstruction loss for information preservation. We name the learned discrete symbols as FoldToken, and the sequence of FoldTokens serves as a new protein language, transforming the protein sequence-structure into a unified modality. We apply the created protein language on general backbone inpainting task, building the first GPT-style model (FoldGPT) for sequence-structure co-generation with promising results. Key to our success is the substantial enhancement of the vector quantization module, Soft Conditional Vector Quantization (SoftCVQ).",
-    "link": "/venue/31998@AAAI",
+    "summary": "This paper presents Reed-Solomon coded single-stranded representation learning (RSRL), a novel end-to-end model for learning representations for lossless DNA data storage. In contrast to existing learning-based methods, RSRL is inspired by both error-correction codec and structural biology. Specifically, RSRL first learns the representations for the subsequent storage from the binary data transformed by the Reed-Solomon codec (RS code). Then, the representations are masked by an RS-code-informed mask to focus on correcting the burst errors occurring in the learning process. The synergy of RS masks and graph attention enables active error localization, breaking through the limitations of traditional passive error correction. With the decoded representations with error corrections, a novel biologically stabilized loss is formulated to regularize the data representations to possess stable single-stranded structures. By incorporating these novel strategies, RSRL can learn highly durable, dense, and lossless representations for subsequent storage tasks in DNA sequences. The proposed RSRL has been compared with a number of baselines in real-world tasks of multi-type data storage. The experimental results obtained demonstrate that RSRL can store diverse types of data with much higher information density and durability, but much lower error rates.",
+    "link": "/venue/36962@AAAI",
     "published_date": null,
-    "conference": "AAAI.2025",
-    "conference_year": 2025,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "ViG-RAG: Video-aware Graph Retrieval-Augmented Generation via Temporal and Semantic Hybrid Reasoning",
+    "authors": [
+      "Zongsheng Cao",
+      "Anran Liu",
+      "Yangfan He",
+      "Jing Li",
+      "Bo Zhang",
+      "Zigan Wang"
+    ],
+    "affiliations": [],
+    "summary": "Retrieval-augmented generation (RAG) has greatly improved Large Language Models (LLMs) by adding external knowledge. However, current RAG-based methods face difficulties with long-context video understanding due to two main challenges. First, Current RAG-based methods for long-context video understanding struggle to effectively integrate multimodal and long-range temporal information, resulting in fragmented and context-insensitive knowledge representations. Furthermore, their retrieval mechanisms often rely on static textual matching, failing to dynamically align user queries with the most relevant video segments and leading to suboptimal downstream performance. To overcome these issues, we introduce ViG-RAG, a new framework to enhance long-context video understanding through structured textual knowledge grounding and multi-modal retrieval. Specifically, we segment video transcripts into structured units, extract key entities, form temporal connections, and assign confidence for evidence, enabling coherent long-range reasoning. In this way, it utilizes a knowledge-aware grounding mechanism and a context-aware retrieval process that dynamically builds a probabilistic temporal knowledge graph to organize multi-video content. To improve retrieval accuracy, we propose a hybrid retrieval strategy for semantic and temporal features, with an adaptive distribution modeling the relevance. In this way, it achieves the optimal retrieval distribution for each query, enhancing generation efficiency by reducing unnecessary computations. On top of this, ViG-RAG uses a vision-language model to integrate semantic anchors, expanded contextual fields, and selected video frames, generating an accurate response. We evaluate ViG-RAG on several benchmarks, demonstrating that it significantly surpasses current RAG-based methods.",
+    "link": "/venue/36963@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Transferable Backdoor Attacks for Code Models via Sharpness-Aware Adversarial Perturbation",
+    "authors": [
+      "Shuyu Chang",
+      "Haiping Huang",
+      "Yanjun Zhang",
+      "Yujin Huang",
+      "Fu Xiao",
+      "Leo Yu Zhang"
+    ],
+    "affiliations": [],
+    "summary": "Code models are increasingly adopted in software development but remain vulnerable to backdoor attacks via poisoned training data. Existing backdoor attacks on code models face a fundamental trade-off between transferability and stealthiness. Static trigger-based attacks insert fixed dead code patterns that transfer well across models and datasets but are easily detected by code-specific defenses. In contrast, dynamic trigger-based attacks adaptively generate context-aware triggers to evade detection but suffer from poor cross-dataset transferability. Moreover, they rely on unrealistic assumptions of identical data distributions between poisoned and victim training data, limiting their practicality. To overcome these limitations, we propose Sharpness-aware Transferable Adversarial Backdoor (STAB), a novel attack that achieves both transferability and stealthiness without requiring complete victim data. STAB is motivated by the observation that adversarial perturbations in flat regions of the loss landscape transfer more effectively across datasets than those in sharp minima. To this end, we train a surrogate model using Sharpness-Aware Minimization to guide model parameters toward flat loss regions, and employ Gumbel-Softmax optimization to enable differentiable search over discrete trigger tokens for generating context-aware adversarial triggers. Experiments across three datasets and two code models show that STAB outperforms prior attacks in terms of transferability and stealthiness. It achieves a 73.2% average attack success rate after defense, outperforming static trigger–based attacks that fail under defense. STAB also surpasses the best dynamic trigger–based attack by 12.4% in cross-dataset attack success rate and maintains performance on clean inputs.",
+    "link": "/venue/36964@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Toward Multimodal Fake News Detection by Multi-perspective Rationale Generation and Verification",
+    "authors": [
+      "Junyang Chen",
+      "Yueqian Li",
+      "Ka Chung Ng",
+      "Huan Wang",
+      "Liang-Jie Zhang"
+    ],
+    "affiliations": [],
+    "summary": "The rapid proliferation of social media platforms has led to a surge in multimodal fake news, where deceptive content often combines text and images to mislead audiences. Traditional unimodal detection methods struggle to address the complexity of such content, necessitating holistic multimodal approaches. While the latest advancements in Multimodal Large Language Models (MLLMs) offer new opportunities for enhancing detection performance by analyzing multi-dimensional features, including source credibility, cross-modal contradictions, emotional bias, and manipulative writing patterns, these methods suffer from a key flaw: a susceptibility to hallucinations or erroneous reasoning, which can lead to flawed conclusions and ultimately biased detection results. We propose the Multimodal Fake News Detection via Multi-perspective Rationale Generation and Verification (MMRGV) model to mitigate this challenge. Our method employs a cross-verification mechanism to screen and reconcile contradictions among different rationales, thereby preserving the LLM's analytical advantages while mitigating the impact of erroneous reasoning or hallucinations on the final detection. Subsequently, these optimized rationales are fused via an adaptive weighting strategy to output a robust final prediction. Extensive experiments on three benchmark datasets (Twitter, Weibo, and GossipCop) demonstrate the superiority of our method, achieving state-of-the-art accuracy of 0.9972, 0.9663, and 0.8772, respectively, and significantly outperforming existing baselines. These results validate the effectiveness of multi-perspective rationale generation and cross-verification in enhancing multimodal fake news detection, offering a resilient solution to combat misinformation in the era of generative AI.",
+    "link": "/venue/36965@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "RTMol: Rethinking Molecule-text Alignment in a Round-trip View",
+    "authors": [
+      "Letian Chen",
+      "Runhan Shi",
+      "Gufeng Yu",
+      "Yang Yang"
+    ],
+    "affiliations": [],
+    "summary": "Aligning molecular sequence representations (e.g., SMILES notations) with textual descriptions is critical for applications spanning drug discovery, materials design, and automated chemical literature analysis. Existing methodologies typically treat molecular captioning (molecule-to-text) and text-based molecular design (text-to-molecule) as separate tasks, relying on supervised fine-tuning or contrastive learning pipelines. These approaches face three key limitations: (i) conventional metrics like BLEU prioritize linguistic fluency over chemical accuracy, (ii) training datasets frequently contain chemically ambiguous narratives with incomplete specifications, and (iii) independent optimization of generation directions leads to bidirectional inconsistency. To address these issues, we propose RTMol, a bidirectional alignment framework that unifies molecular captioning and text-to-SMILES generation through self-supervised round-trip learning. The framework introduces novel round-trip evaluation metrics and enables unsupervised training for molecular captioning without requiring paired molecule-text corpora. Experiments demonstrate that RTMol enhances bidirectional alignment performance by up to 47% across various LLMs, establishing an effective paradigm for joint molecule-text understanding and generation.",
+    "link": "/venue/36966@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Physical-regularized Hierarchical Generative Model for Metallic Glass Structural Generation and Energy Prediction",
+    "authors": [
+      "Qiyuan Chen",
+      "Ajay Annamareddy",
+      "Ying-Fei Li",
+      "Dane Morgan",
+      "Bu Wang"
+    ],
+    "affiliations": [],
+    "summary": "Disordered materials such as glasses, unlike crystals, lack long‑range atomic order and have no periodic unit cells, yielding a high‑dimensional configuration space with widely varying properties. The complexity not only increases computational costs for atomistic simulations but also makes it difficult for generative AI models to deliver accurate property predictions and realistic structure generation. In this work, we introduce GlassVAE, a hierarchical graph variational autoencoder that uses graph representations to learn compact, translation‑, and permutation‑invariant embeddings of atomic configurations. The resulting structured latent space not only enables efficient generation of novel, physically plausible structures but also supports exploration of the glass energy landscape. To enforce structural realism and physical fidelity, we augment GlassVAE with two physics‑informed regularizers: a radial distribution function (RDF) loss that captures characteristic short‑ and medium‑range ordering and an energy regression loss that reflects the broad configurational energetics. Both theoretical analysis and experimental results highlight the critical impact of these regularizers. By encoding high‑dimensional atomistic data into a compact latent vector and decoding it into structures with accurate energy predictions, GlassVAE provides a fast, physics‑aware path for modeling and designing disordered materials.",
+    "link": "/venue/36967@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Regressor-guided Diffusion Model for De Novo Peptide Sequencing with Explicit Mass Control",
+    "authors": [
+      "Shaorong Chen",
+      "Jingbo Zhou",
+      "Jun Xia"
+    ],
+    "affiliations": [],
+    "summary": "The discovery of novel proteins relies on sensitive protein identification, for which de novo peptide sequencing (DNPS) from mass spectra is a crucial approach. While deep learning has advanced DNPS, existing models inadequately enforce the fundamental mass consistency constraint—that a predicted peptide's mass must match the experimental measured precursor mass. Previous DNPS methods often treat this critical information as a simple input feature or use it in post-processing, leading to numerous implausible predictions that do not adhere to this fundamental physical property. To address this limitation, we introduce DiffuNovo, a novel regressor-guided diffusion model for de novo peptide sequencing that provides explicit peptide-level mass control. Our approach integrates the mass constraint at two critical stages: during training, a novel peptide-level mass loss guides model optimization, while at inference, regressor-based guidance from gradient-based updates in the latent space steers the generation to compel the predicted peptide adheres to the mass constraint. Comprehensive evaluations on established benchmarks demonstrate that DiffuNovo surpasses state-of-the-art methods in DNPS accuracy. Additionally, as the first DNPS model to employ a diffusion model as its core backbone, DiffuNovo leverages the powerful controllability of diffusion architecture and achieves a significant reduction in mass error, thereby producing much more physically plausible peptides. These innovations represent a substantial advancement toward robust and broadly applicable DNPS. The source code is available in the supplementary material.",
+    "link": "/venue/36968@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "RareAgents: Autonomous Multi-disciplinary Team for Rare Disease Diagnosis and Treatment",
+    "authors": [
+      "Xuanzhong Chen",
+      "Ye Jin",
+      "Xiaohao Mao",
+      "Lun Wang",
+      "Shuyang Zhang",
+      "Ting Chen"
+    ],
+    "affiliations": [],
+    "summary": "Rare diseases, despite their low individual incidence, collectively impact around 300 million people worldwide due to the vast number of diseases. The involvement of multiple organs and systems, and the shortage of specialized doctors with relevant experience, make diagnosing and treating rare diseases more challenging than common diseases. Recently, agents powered by large language models (LLMs) have demonstrated notable applications across various domains. In the medical field, some agent methods have outperformed direct prompts in question-answering tasks from medical examinations. However, current agent frameworks are not well-adapted to real-world clinical scenarios, especially those involving the complex demands of rare diseases. To bridge this gap, we introduce RareAgents, the first LLM-driven multi-disciplinary team decision-support tool designed specifically for the complex clinical context of rare diseases. RareAgents integrates advanced Multidisciplinary Team (MDT) coordination, memory mechanisms, and medical tools utilization, leveraging Llama-3.1-8B/70B as the base model. Experimental results show that RareAgents outperforms state-of-the-art domain-specific models, GPT-4o, and current agent frameworks in diagnosis and treatment for rare diseases. Furthermore, we contribute a novel rare disease dataset, MIMIC-IV-Ext-Rare, to facilitate further research in this field.",
+    "link": "/venue/36969@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Transferring Causal Driving Patterns for Generalizable Traffic Simulation with Diffusion-Based Distillation",
+    "authors": [
+      "Yuhang Chen",
+      "Jie Sun",
+      "Jialin Fan",
+      "Jian Sun"
+    ],
+    "affiliations": [],
+    "summary": "Traffic simulation is essential for validating the safety and reliability of autonomous driving systems, yet data-driven simulation methods often struggle with distribution shifts, limiting their generalizability across diverse datasets (domains). To address this, we present Causal Driving Pattern Transfer (CDPT), a novel two-stage knowledge distillation framework built upon diffusion model to enhance cross-domain generalizability. In Phase I, we implement hybrid self-distillation within the source domain by integrating feature-, response-, and contrastive-level distillation, which enables the model to decompose complex driving behaviors into their core causal components, including scene-conditioned driven patterns, multi-agent interaction dynamics and casual saliency. In Phase II, we introduce a continual distillation strategy: few-shot samples from the target domain are used to initiate generation of diverse synthetic scenarios, allowing the student model to continually adapt to novel environments without retraining on large-scale data. Extensive experiments demonstrate that CDPT achieves strong generalization in both open-loop and closed-loop simulations, effectively generating realistic, interaction-aware behaviors that are critical for scalable and reliable autonomous driving testing.",
+    "link": "/venue/36970@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "TRACE: Transformation-Aware Graph Refinement for Reaction Condition Prediction",
+    "authors": [
+      "Yujie Chen",
+      "Tengfei Ma",
+      "Yuansheng Liu",
+      "Leyi Wei",
+      "Shu Wu",
+      "Dongsheng Cao",
+      "Yiping Liu",
+      "Xiangxiang Zeng"
+    ],
+    "affiliations": [],
+    "summary": "Identifying suitable reaction conditions is critical for chemical synthesis, as they directly affect yield, selectivity, and transformation feasibility. While recent methods have shown promising results, most approaches either encode reactants and products independently or rely on rule-based reaction graphs, both of which constrain the ability of the model to capture condition-relevant structural transformations. In this work, we propose TRACE, a transformation-aware graph refinement framework for reaction condition prediction. TRACE constructs atom-level joint graphs that integrate both reactant and product structures to represent condition-relevant transformations. A structure-aware encoder enriches atom features with local chemical context, followed by a dynamic interaction refinement module that adaptively infers task-specific edges. To further guide the model toward condition-relevant patterns, a mechanism regularized graph encoder incorporates reaction center information, enabling more accurate modeling of transformation mechanisms. Experiments on benchmark datasets show that TRACE achieves state-of-the-art performance across multiple condition types. The integration of transformation-aware refinement leads to improvements in prediction accuracy and generalization, while maintaining robust performance in challenging and realistic synthesis planning scenarios.",
+    "link": "/venue/36971@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "SIDE: Surrogate Conditional Data Extraction from Diffusion Models",
+    "authors": [
+      "Yunhao Chen",
+      "Shujie Wang",
+      "Difan Zou",
+      "Xingjun Ma"
+    ],
+    "affiliations": [],
+    "summary": "As diffusion probabilistic models (DPMs) become central to Generative AI (GenAI), understanding their memorization behavior is essential for evaluating risks such as data leakage, copyright infringement, and trustworthiness. While prior research finds conditional DPMs highly susceptible to data extraction attacks using explicit prompts, unconditional models are often assumed to be safe. We challenge this view by introducing Surrogate condItional Data Extraction (SIDE), a general framework that constructs data-driven surrogate conditions to enable targeted extraction from any DPM. Through extensive experiments on CIFAR-10, CelebA, ImageNet, and LAION-5B, we show that SIDE can successfully extract training data from so-called safe unconditional models, outperforming baseline attacks even on conditional models. Complementing these findings, we present a unified theoretical framework based on informative labels, demonstrating that all forms of conditioning, explicit or surrogate, amplify memorization. Our work redefines the threat landscape for DPMs, establishing precise conditioning as a fundamental vulnerability and setting a new, stronger benchmark for model privacy evaluation.",
+    "link": "/venue/36972@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "DyC-STG: Dynamic Causal Spatio-Temporal Graph Network for Real-time Data Credibility Analysis in IoT",
+    "authors": [
+      "Guanjie Cheng",
+      "Boyi Li",
+      "Peihan Wu",
+      "Feiyi Chen",
+      "Xinkui Zhao",
+      "Mengying Zhu",
+      "Shuiguang Deng"
+    ],
+    "affiliations": [],
+    "summary": "The wide spreading of Internet of Things (IoT) sensors generates vast spatio-temporal data streams, but ensuring data credibility is a critical yet unsolved challenge for applications like smart homes. While spatio-temporal graph (STG) models are a leading paradigm for such data, they often fall short in dynamic, human-centric environments due to two fundamental limitations: (1) their reliance on static graph topologies, which fail to capture physical, event-driven dynamics, and (2) their tendency to confuse spurious correlations with true causality, undermining robustness in human-centric environments. To address these gaps, we propose the Dynamic Causal Spatio-Temporal Graph Network (DyC-STG), a novel framework designed for real-time data credibility analysis in IoT. Our framework features two synergistic contributions: an event-driven dynamic graph module that adapts the graph topology in real-time to reflect physical state changes, and a causal reasoning module to distill causally-aware representations by strictly enforcing temporal precedence. To facilitate the research in this domain we release two new real-world datasets. Comprehensive experiments show that DyC-STG establishes a new state-of-the-art, outperforming the strongest baselines by 1.4 percentage points and achieving an F1-Score of up to 0.930.",
+    "link": "/venue/36973@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "ProAR: Probabilistic Autoregressive Modeling for Molecular Dynamics",
+    "authors": [
+      "Kaiwen Cheng",
+      "Yutian Liu",
+      "Zhiwei Nie",
+      "Mujie Lin",
+      "Yanzhen Hou",
+      "Yiheng Tao",
+      "Chang Liu",
+      "Jie Chen",
+      "Youdong Mao",
+      "Yonghong Tian"
+    ],
+    "affiliations": [],
+    "summary": "Understanding the structural dynamics of biomolecules is crucial for uncovering biological functions. As molecular dynamics (MD) simulation data becomes more available, deep generative models have been developed to synthesize realistic MD trajectories. However, existing methods produce fixed-length trajectories by jointly denoising high-dimensional spatiotemporal representations, which conflicts with MD’s frame-by-frame integration process and fails to capture time-dependent conformational diversity. Inspired by MD's sequential nature, we introduce a new probabilistic autoregressive (ProAR) framework for trajectory generation. ProAR uses a dual-network system that models each frame as a multivariate Gaussian distribution and employs an anti-drifting sampling strategy to reduce cumulative errors. This approach captures conformational uncertainty and time-coupled structural changes while allowing flexible generation of trajectories of arbitrary length. Experiments on ATLAS, a large-scale protein MD dataset, demonstrate that for long trajectory generation, our model achieves a 7.5% reduction in reconstruction RMSE and an average 25.8% improvement in conformation change accuracy compared to previous state-of-the-art methods. For conformation sampling task, it performs comparably to specialized time-independent models, providing a flexible and dependable alternative to standard MD simulations.",
+    "link": "/venue/36974@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Light but Sharp: SlimSTAD for Real-Time Action Detection from Sensor Data",
+    "authors": [
+      "Wei Cui",
+      "Lukai Fan",
+      "Zhenghua Chen",
+      "Min Wu",
+      "Shili Xiang",
+      "Haixia Wang",
+      "Bing Li"
+    ],
+    "affiliations": [],
+    "summary": "Sensory Temporal Action Detection (STAD) aims to localize and classify human actions within long, untrimmed sequences captured by non-visual sensors such as WiFi or inertial measurement units (IMUs). Unlike video-based TAD, STAD poses unique challenges due to the low-dimensional, noisy, and heterogeneous nature of sensory data, as well as the real-time and resource constraints on edge devices. While recent STAD models have improved detection performance, their high computational cost hampers practical deployment. In this paper, we propose SlimSTAD, a simple yet effective framework that achieves both high accuracy and low latency for STAD. SlimSTAD features a novel Decoupled Channel Modeling (DCM) encoder, which preserves modality-specific temporal features and enables efficient inter-channel aggregation via lightweight graph attention. An anchor-free cascade predictor then refines action boundaries and class predictions in a two-stage design without dense proposals. Experiments on two real-world datasets demonstrate that SlimSTAD outperforms strong video-derived and sensory baselines by an average of 2.1 mAP, while significantly reducing GFLOPs, parameters, and latency, validating its effectiveness for real-world, edge-aware STAD deployment.",
+    "link": "/venue/36975@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification",
+    "authors": [
+      "Xing Cui",
+      "Jingzheng Wu",
+      "Wenxiang Ou",
+      "Tianyue Luo",
+      "Zhiyuan Li",
+      "Xiang Ling"
+    ],
+    "affiliations": [],
+    "summary": "Vulnerability-Fixing Commit Identification(VFCI) is a critical task in software security maintenance that aims to automatically identify code commits that patch security vulnerabilities. However, existing approaches face challenges in handling low-quality commit messages and entangled commits, which limit their identification performance. To address these issues, we propose VFCionX, a novel VFCI framework that integrates large and small language models in a collaborative architecture. VFCionX consists of three core modules: Message Classifier, Patch Classifier, and Ensemble Classifier. The Message Classifier employs a multi-source contextual augmentation strategy to enhance the quality of commit messages and fine-tunes the Qwen2.5-1.5B model, significantly improving classification performance in the textual modality. The Patch Classifier combines heuristic rules with a Qwen2.5-Coder-7B-driven file selector to filter noise from entangled commits, and incorporates a line-level feature extractor based on CodeBERT and CNN to capture local pattern differences between added and deleted code lines. The Ensemble Classifier integrates predictions from both channels using the AdaBoost algorithm, enhancing model robustness and generalization. Experimental results on five popular C/C++ repositories comprising 24,630 commits show that VFCionX achieves an F1-score of 81.47%, outperforming the best baseline by 9.42%. Ablation studies validate the effectiveness of each component, while sensitivity analysis reveals optimal parameter settings for balancing performance and noise resilience. This work provides a new and effective solution for robust vulnerability patch identification.",
+    "link": "/venue/36976@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "T2Agent: A Tool-augmented Multimodal Misinformation Detection Agent with Monte Carlo Tree Search",
+    "authors": [
+      "Xing Cui",
+      "Yueying Zou",
+      "Zekun Li",
+      "Peipei Li",
+      "Xinyuan Xu",
+      "Xuannan Liu",
+      "Huaibo Huang"
+    ],
+    "affiliations": [],
+    "summary": "Real-world multimodal misinformation often arises from mixed forgery sources, requiring dynamic reasoning and adaptive verification. However, existing methods mainly rely on static pipelines and limited tool usage, limiting their ability to handle such complexity and diversity. To address this challenge, we propose T2Agent, a novel misinformation detection agent that incorporates an extensible toolkit with Monte Carlo Tree Search (MCTS). The toolkit consists of modular tools such as web search, forgery detection, and consistency analysis. Each tool is described using standardized templates, enabling seamless integration and future expansion. To avoid inefficiency from using all tools simultaneously, a greedy search-based selector is proposed to identify a task-relevant subset. This subset then serves as the action space for MCTS to dynamically collect evidence and perform multi-source verification. To better align MCTS with the multi-source nature of misinformation detection, T2Agent extends traditional MCTS with multi-source verification, which decomposes the task into coordinated subtasks targeting different forgery sources. A dual reward mechanism containing a reasoning trajectory score and a confidence score is further proposed to encourage a balance between exploration across mixed forgery sources and exploitation for more reliable evidence. We conduct ablation studies to confirm the effectiveness of the tree search mechanism and tool usage. Extensive experiments further show that T2Agent consistently outperforms existing baselines on challenging mixed-source multimodal misinformation benchmarks, demonstrating its strong potential as a training-free detector.",
+    "link": "/venue/36977@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Measuring What Matters: Scenario-Driven Evaluation for Trajectory Predictors in Autonomous Driving",
+    "authors": [
+      "Longchao Da",
+      "David Isele",
+      "Hua Wei",
+      "Manish Saroya"
+    ],
+    "affiliations": [],
+    "summary": "Being able to anticipate the motion of surrounding agents is essential for the safe operation of autonomous driving systems in dynamic situations. While various methods have been proposed for trajectory prediction, the current evaluation practices still rely on error-based metrics (e.g., ADE, FDE), which reveal the accuracy from a post-hoc view but ignore the actual effect the predictor brings to the self-driving vehicles (SDVs), especially in complex interactive scenarios: a high-quality predictor not only chases accuracy, but should also captures all possible directions a neighbor agent might move, to support the SDVs' cautious decision-making. Given that the existing metrics hardly account for this standard, in our work, we propose a comprehensive pipeline that adaptively evaluates the predictor's performance by two dimensions: accuracy and diversity. Based on the criticality of the driving scenario, these two dimensions are dynamically combined and result in a final score for the predictor's performance. Extensive experiments on a closed-loop benchmark using a real-world dataset show that our pipeline yields a more reasonable evaluation than traditional metrics by better reflecting the correlation of the predictors' evaluation with the autonomous vehicles' driving performance. This evaluation pipeline shows a robust way to select a predictor that potentially contributes most to the SDV's driving performance.",
+    "link": "/venue/36978@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "DensiCrafter: Physically-Constrained Generation and Fabrication of Self-Supporting Hollow Structures",
+    "authors": [
+      "Shengqi Dang",
+      "Fu Chai",
+      "Jiaxin Li",
+      "Chao Yuan",
+      "Wei Ye",
+      "Nan Cao"
+    ],
+    "affiliations": [],
+    "summary": "The rise of 3D generative models has enabled automatic 3D geometry and texture synthesis from multimodal inputs (e.g., text or images). However, these methods often ignore physical constraints and manufacturability considerations. In this work, we address the challenge of producing 3D designs that are both lightweight and self-supporting. We present DensiCrafter, a framework for generating lightweight, self-supporting 3D hollow structures by optimizing the density field. Starting from coarse voxel grids produced by Trellis, we interpret these as continuous density fields to optimize and introduce three differentiable, physically constrained, and simulation-free loss terms. Additionally, a mass regularization penalizes unnecessary material, while a restricted optimization domain preserves the outer surface. Our method seamlessly integrates with pretrained Trellis-based models (e.g., Trellis, DSO) without any architectural changes. In extensive evaluations, we achieve up to 43% reduction in material mass on the text-to-3D task. Compared to state-of-the-art baselines, our method could improve the stability and maintain high geometric fidelity. Real-world 3D-printing experiments confirm that our hollow designs can be reliably fabricated and could be self-supporting.",
+    "link": "/venue/36979@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "Topology-Enhanced and Label Correlation-Aware Model for Protein-Protein Interaction Prediction",
+    "authors": [
+      "Bin Deng",
+      "Huifang Ma",
+      "Ruijia Zhang",
+      "Meihuizi Jia",
+      "Rui Bing"
+    ],
+    "affiliations": [],
+    "summary": "Protein-Protein Interactions (PPIs) prediction is crucial for understanding cellular functions and disease mechanisms. Existing deep learning–based methods primarily rely on direct interaction within the PPI network to update protein representations. However, (1) such networks overlook the potential associations between functionally similar proteins, limiting the smoothing capability of Graph Neural Networks (GNNs) in learning representations for similar nodes. (2) Additionally, most approaches fail to adequately model the latent dependencies among interaction types (edge labels), which hinders their performance in PPI prediction tasks. To address these limitations, we propose TELC-PPI, a topology-enhanced and label correlation-aware model for protein-protein interactions prediction. Specifically, TELC-PPI first identifies similar proteins by leveraging both the topological information of the PPI network and the label distributions of nodes, constructing similarity edges. Then, it incorporates label co-occurrence statistics into the learning of label embeddings. Experimental results on multiple datasets and under various data split settings demonstrate that TELC-PPI significantly outperforms existing methods, validating the effectiveness of our model design.",
+    "link": "/venue/36980@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "InteChar: A Unified Oracle Bone Character List for Ancient Chinese Language Modeling",
+    "authors": [
+      "Xiaolei Diao",
+      "Zhihan Zhou",
+      "Lida Shi",
+      "Ting Wang",
+      "Ruihua Qi",
+      "Daqian Shi",
+      "Hao Xu"
+    ],
+    "affiliations": [],
+    "summary": "Constructing historical language models (LMs) plays a crucial role in aiding archaeological provenance studies and understanding ancient cultures. However, existing resources present major challenges for training effective LMs on historical texts. First, the scarcity of historical language samples renders unsupervised learning approaches based on large text corpora highly inefficient, hindering effective pre-training. Moreover, due to the considerable temporal gap and complex evolution of ancient scripts, the absence of comprehensive character encoding schemes limits the digitization and computational processing of ancient texts, particularly in early Chinese writing. To address these challenges, we introduce InteChar, a unified and extensible character list that integrates unencoded oracle bone characters with traditional and modern Chinese. InteChar enables consistent digitization and representation of historical texts, providing a foundation for robust modeling of ancient scripts. To evaluate the effectiveness of InteChar, we construct the Oracle Corpus Set (OracleCS), an ancient Chinese corpus that combines expert-annotated samples with LLM-assisted data augmentation, centered on Chinese oracle bone inscriptions. Extensive experiments show that models trained with InteChar on OracleCS achieve substantial improvements across various historical language understanding tasks, confirming the effectiveness of our approach and establishing a solid foundation for future research in ancient Chinese NLP.",
+    "link": "/venue/36981@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
+    "track": null,
+    "source": "paperscool"
+  },
+  {
+    "id": null,
+    "title": "NucEL: Single-Nucleotide ELECTRA-Style Genomic Pre-training for Efficient and Interpretable Representations",
+    "authors": [
+      "Ke Ding",
+      "Brian Parker",
+      "Jiayu Wen"
+    ],
+    "affiliations": [],
+    "summary": "Pre-training large language models on genomic sequences has become a powerful approach for learning biologically meaningful representations. While masked language modeling (MLM)-based approaches, such as DNABERT and Nucleotide Transformer (NT), achieve strong performance, they are hindered by inefficiencies due to partial token supervision, pre-training/fine-tuning mismatches, and high computational costs. We introduce NucEL, the first ELECTRA-style pre-training framework for genomic foundation models, which overcomes these challenges. Through a discriminator network identifying tokens modified by a generator, NucEL achieves comprehensive token-level supervision across all sequence positions, thereby markedly improving training efficiency relative to the partial supervision of masked positions inherent in MLM frameworks. By integrating ModernBERT’s architectural advancements, including hybrid local-global attention and flash attention mechanisms, NucEL establishes an optimized BERT architecture for genomic sequence modeling. Unlike traditional methods that tokenize genomic sequences into 6-mers, NucEL implements single-nucleotide tokenization, enabling fine-grained resolution and improving both efficiency and interpretability. Pre-trained on the human genome only, NucEL achieves state-of-the-art performance on benchmark datasets across diverse downstream tasks in both human and non-human species, including regulatory element identification (e.g., promoters, enhancers), transcription factor binding prediction in human and mouse, open chromatin region classification, and histone modification profiles, surpassing MLM-based models of similar size and rivaling models 25 times larger, such as NT. Ablation studies provide critical insights into tokenization and masking strategies, optimizing ELECTRA-style pretraining for DNA sequences. Attention analyses reveal NucEL’s superior ability to capture biologically relevant sequence motifs compared to NT, offering valuable insights into its hierarchical learning process and regulatory element modeling capabilities. This work highlights the potential of ELECTRA-style pretraining as an efficient and effective strategy for advancing genomic representation learning with broad implications for future genomic research.",
+    "link": "/venue/36982@AAAI",
+    "published_date": null,
+    "conference": "AAAI.2026",
+    "conference_year": 2026,
     "track": null,
     "source": "paperscool"
   },
