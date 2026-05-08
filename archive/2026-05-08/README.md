@@ -1,7 +1,7 @@
 # PaperPostman
 > Automatically curated research papers from arXiv and papers.cool
 
-**Last Updated:** 2026-05-08 17:01:32 UTC
+**Last Updated:** 2026-05-07 17:29:59 UTC
 ---
 
 ## Latest News
@@ -40,17 +40,6 @@ Retrieval-augmented generation (RAG) has greatly improved Large Language Models 
 **[Read Paper](/venue/Tian_Identifying_and_Mitigating_Position_Bias_of_Multi-image_Vision-Language_Models@CVPR2025@CVF)**
 
 The evolution of Large Vision-Language Models (LVLMs) has progressed from single-image understanding to multi-image reasoning. Despite this advancement, our findings indicate that LVLMs struggle to robustly utilize information across multiple images, with predictions significantly affected by the alteration of image positions. To further explore this issue, we introduce Position-wise Question Answering (PQA), a meticulously designed task to quantify reasoning capabilities at each position. Our analysis reveals a pronounced position bias in LVLMs: open-source models excel in reasoning with images positioned later but underperform with those in the middle or at the beginning, while proprietary models like GPT-4o show improved comprehension for images at the beginning and end but struggle with those in the middle. Motivated by these insights, we propose SoFt Attention (SoFA), a simple, training-free approach that mitigates this bias by employing linear interpolation between inter-image causal attention and bidirectional counterparts. Experimental results demonstrate that SoFA effectively reduces position bias and significantly enhances the reasoning performance of existing LVLMs.
-
----
-
-
-## Weekly Summary
-
-*Week ending 2026-05-08*
-
----
-
-*No papers to summarize this week.*
 
 ---
 
